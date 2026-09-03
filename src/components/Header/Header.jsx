@@ -1,4 +1,6 @@
 import { NavLink } from "react-router-dom";
+import Logo from "../../assets/Logo.webp";
+
 function Header() {
   const navLinks = [
     { name: "Home", path: "/" },
@@ -34,7 +36,7 @@ function Header() {
       <div className="branding flex ">
         <div className="logo">
           <img
-            src="src/assets/Logo.webp"
+            src={Logo}
             alt="img"
             className="w-24 sm:w-28 md:w-32 lg:w-36 xl:w-48"
           />
