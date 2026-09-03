@@ -1,4 +1,4 @@
-// import bgImage from "../../assets/hero-img.png";
+import heroImage from "../../assets/hero-img.png";
 
 function Hero() {
   return (
@@ -89,7 +89,7 @@ function Hero() {
     whitespace-nowrap
   "
           >
-            FIle checkinggggg
+            Industry Focused Internships & Training
           </h4>
         </div>
 
@@ -353,7 +353,7 @@ function Hero() {
         // }}
       >
         <img
-          src="src/assets/hero-img.png"
+          src={heroImage}
           alt="img"
           className="
         object-contain
