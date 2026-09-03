@@ -89,7 +89,7 @@ function Hero() {
     whitespace-nowrap
   "
           >
-            Industry Focused Internships & Training
+            FIle checkinggggg
           </h4>
         </div>
 
