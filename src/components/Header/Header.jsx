@@ -37,7 +37,7 @@ function Header() {
         <div className="logo">
           <img
             src={Logo}
-            alt="img"
+            alt="img not found"
             className="w-24 sm:w-28 md:w-32 lg:w-36 xl:w-48"
           />
         </div>
