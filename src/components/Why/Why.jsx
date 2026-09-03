@@ -5,6 +5,7 @@ import Certificate from "../../assets/certificate.gif";
 import Career from "../../assets/career.gif";
 
 import dottedArrow from "../../assets/arrow.png";
+import whyImage from "../../assets/secondary-image.png";
 
 function Why() {
   const WhyLearnTricks = [
@@ -142,7 +143,7 @@ function Why() {
                 "
         >
           <img
-            src="src/assets/secondary-image.png"
+            src={whyImage}
             alt="img"
             className="
               pt-auto

@@ -1,36 +1,43 @@
+import PythonLogo from "../../assets/python-removebg-preview.png";
+import DataScienceLogo from "../../assets/data-science.png";
+import MachineLearningLogo from "../../assets/machine-learning.png";
+import WebDevelopmentLogo from "../../assets/web-development.png";
+import CloudComputingLogo from "../../assets/aws-logo.png";
+
+
 function Program() {
   const programs = [
     {
       id: 1,
-      image: "src/assets/python-removebg-preview.png",
+      image: PythonLogo,
       title: "Python Development",
       description: "Learn Python with real-world projects and applications.",
     },
 
     {
       id: 2,
-      image: "src/assets/data-science.png",
+      image: DataScienceLogo,
       title: "Data Science",
       description: "Analyse data and build powerful insights.",
     },
 
     {
       id: 3,
-      image: "src/assets/machine-learning.png",
+      image: MachineLearningLogo,
       title: "Machine Learning",
       description: "Build intellegent models and solve real problems.",
     },
 
     {
       id: 4,
-      image: "src/assets/web-development.png",
+      image: WebDevelopmentLogo,
       title: "Web Development",
       description: "Build responsive websites and web applications.",
     },
 
     {
       id: 5,
-      image: "src/assets/aws-logo.png",
+      image: CloudComputingLogo,
       title: "Cloud Computing",
       description: "Learn Python with real-world projects and applications",
     },
