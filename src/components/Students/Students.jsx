@@ -1,6 +1,13 @@
 import { useState, useEffect } from "react";
 
 import temp from "../../assets/temp-img.webp";
+import aichatbot from "../../assets/ai-chatbot.png"
+import aitraining from "../../assets/ai-training.png"
+import cloudComputing from "../../assets/cloud computing.png"
+import portfolioWebsite from "../../assets/portfolio-website.png"
+import softwareDevelopment from "../../assets/software-development.png"
+import weatherDashboard from "../../assets/weather-dashboard.png"
+
 
 function Students() {
   // Students Reviews
@@ -10,41 +17,41 @@ function Students() {
     {
       id: 1,
       description:
-        "This is such a great platform to gain real world experience, environment is perfect, employee are very smart.",
+        "“LearnTricks makes learning technical concepts much easier to understand. The content is simple, practical, and well organized, which makes it a great platform for students who are just getting started.”",
       student: "Puravi",
-      Domain: "Web Developer",
+      Domain: "Computer Science Student",
       image: temp,
     },
     {
       id: 2,
       description:
-        "This is such a great platform to gain real world experience, environment is perfect, employee are very smart.",
-      student: "Puravi",
-      Domain: "Web Developer",
+        "I really like the way LearnTricks breaks down difficult topics into smaller, understandable concepts. It feels much more practical than simply reading through long theoretical explanations",
+      student: "Priya Mehta",
+      Domain: "Frontend Developer",
       image: temp,
     },
     {
       id: 3,
       description:
-        "This is such a great platform to gain real world experience, environment is perfect, employee are very smart.",
-      student: "Puravi",
-      Domain: "Web Developer",
+        "The biggest thing I liked about LearnTricks is its simplicity. I can quickly find a topic, understand the concept, and move on to practicing it without getting overwhelmed.",
+      student: "Rohan Verma",
+      Domain: "Software Engineering Student",
       image: temp,
     },
     {
       id: 4,
       description:
-        "This is such a great platform to gain real world experience, environment is perfect, employee are very smart.",
-      student: "Puravi",
-      Domain: "Web Developer",
+        "LearnTricks is a helpful learning companion for anyone trying to improve their technical skills. The straightforward explanations make it easier to learn consistently and build confidence",
+      student: "Neha Kapoor",
+      Domain: "Aspiring Full Stack Developer",
       image: temp,
     },
     {
       id: 5,
       description:
-        "This is such a great platform to gain real world experience, environment is perfect, employee are very smart.",
-      student: "Puravi",
-      Domain: "Web Developer",
+        "LearnTricks has a clean and beginner-friendly approach to technical learning. It focuses on making concepts understandable instead of unnecessarily complicated, which I really appreciate.",
+      student: "Aditya Singh",
+      Domain: "Computer Science Graduate",
       image: temp,
     },
   ];
@@ -74,37 +81,37 @@ function Students() {
     },
     {
       id: 2,
-      image: "../../assets/temp-img.webp",
-      title: "E-Commerce Website",
-      technology: "Mern Stack",
+      image: aichatbot,
+      title: "Ai-Chatbot",
+      technology: "React, Node.js, Express, OpenAI API",
     },
     {
       id: 3,
-      image: "../../assets/temp-img.webp",
-      title: "E-Commerce Website",
-      technology: "Mern Stack",
+      image: aitraining,
+      title: "AI Model Training",
+      technology: "Python, TensorFlow, Pandas, NumPy",
     },
     {
       id: 4,
-      image: "../../assets/temp-img.webp",
-      title: "E-Commerce Website",
-      technology: "Mern Stack",
+      image: cloudComputing,
+      title: "Cloud Computing",
+      technology: "AWS, Azure, Google Cloud",
     },
     {
       id: 5,
-      image: "../../assets/temp-img.webp",
-      title: "E-Commerce Website",
-      technology: "Mern Stack",
+      image: portfolioWebsite,
+      title: "Portfolio Website",
+      technology: "React, Tailwind CSS",
     },
     {
       id: 6,
-      image: "../../assets/temp-img.webp",
-      title: "E-Commerce Website",
-      technology: "Mern Stack",
+      image: weatherDashboard,
+      title: "Weather Dashboard",
+      technology: "React, Node.js, Express",
     },
     {
       id: 7,
-      image: "../../assets/temp-img.webp",
+      image: temp,
       title: "E-Commerce Website",
       technology: "Mern Stack",
     },
